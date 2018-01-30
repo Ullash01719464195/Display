@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+header{
+	padding:30px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+
+}
+.logo{
+	
+ width: 20%;
+ float: left;
+}
+.logo img{
+ 
+}
+.logo span{
+ font-size: 35px;
+ position: absolute;
+ top: 0;
+ left:0;
+ transform: translate(45%,0%);
+ color: #737373;
+}
+.social_icon{
+ width: 80%;
+ float: right;
+}
+.social_icon ul{
+	text-align: right;
+
+
+}
+.social_icon li{
+	list-style: none;
+	display: inline-block;
+
+}
+.social_icon a{
+	display: block;
+}
+.cursor img{
+ 	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(-1100%, -225%);
+}
+
+.marg{
+	display: block;
+	background-color: #737373;
+	height: 1px;
+	margin-top: 80px;
+}
+.nav{
+	padding: 10px 0;
+}
+.nav ul{
+
+}
+.nav ul li{
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 22px 22px 0;
+	text-transform: uppercase;
+	color: #737373;
+	font-weight: bold;
+    
+}
+.nav ul li a{
+	 display: block;
+
+}
+.nav ul li:hover{
+	color:lightgreen;
+	}
+.banner{
+	background: url(../images/slider_background.png);
+height: 100vh;
+}
+.banner img{
+	position: absolute;
+ 	bottom: 0;
+	right: 0;
+	transform: translate(-30%,55%);
+}
+.heading{
+	padding: 140px 0;
+}
+.about{
+	text-align: center;
+}
+.about p{
+	font-size: 30px;
+	    color: #737384;
+}
+.about a{
+	display: block;
+	text-decoration: none;
+	padding: 12px 0;
+	font-size: 15px;
+	background: #737373;
+	text-align: center;
+	margin: 35px 0;
+    margin-left: 0px;
+	margin-left: 0px;
+	color: #fff;
+	width: 170px;
+	text-align: center;
+	margin-left: 500px;
+	border-radius: 5px;
+}
+.about a:hover{
+	color:lightgreen;
+	background-color: #fff;
+}
+
+.content{
+	background: #464c52;
+	padding: 40px 0;
+}
+.content p{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.content a{
+	float: right;
+	display: block;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	background: #737373;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
+.content a:hover{
+	color:lightgreen;
+	background-color: #fff;
+}
+footer{}
+.footer_section{
+	padding: 14px 0;
+	overflow: hidden;
+}
+.footer_section p{
+	float: left;
+	color: #737384;
+	font-size: 18px;
+}
+.footer_section span{
+	float: right;
+	font-weight: bold;
+	font-size: 18px;
+	color: #737384;
+
+}
